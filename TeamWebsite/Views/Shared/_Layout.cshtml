@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapstoneProject</title>
+    <style>
+        /*.menubar{
+            text-align:center;
+            font-family:'Times New Roman', Times, serif;
+            font-size:medium;
+        }*/
+        /*ul {
+            list-style-type: none;
+            margin: 0;
+          
+            padding-left: 50px;
+            text-align:center;
+            align-items:center;
+            overflow: hidden;
+            background-color: darkblue;
+        }*/
+        .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+           
+        }
+
+        .navbar .navbar-collapse {
+            text-align: center;
+        }
+
+        /*li {
+            display: inline;
+            text-align:center;
+            padding-left: 35x;
+            padding-right: 35px;
+            }
+        */
+       
+    </style>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    
+</head>
+<body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top " style=" background-color :white; text-align:center">
+        Team Name here!
+
+        <div class="nav nav-tabs-justified "style="background-color:darkblue;  text-align:center">
+
+            <div class="container"style="background-color:darkblue">
+                
+                    @*<div class="navbar-header center-block" >
+
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+                    @* </div>*@
+                
+
+            
+                <ul class="nav navbar-nav center-block" style=" text-align:center;">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Mentors", "Mentors", "Home")</li>
+                    <li>@Html.ActionLink("Team", "Team", "Home")</li>
+                    <li>@Html.ActionLink("Meetings", "Meetings", "Home")</li>
+                    <li>@Html.ActionLink("Milestones", "Milestones", "Home")</li>
+                    <li>@Html.ActionLink("Videos", "Videos", "Home")</li>
+                </ul>
+            
+            </div>
+
+        </div>
+
+    </div>
+    </br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p class ="navbar-fixed-bottom"style="text-align:center; font-size:large;">University of Houston - Clear Lake</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
