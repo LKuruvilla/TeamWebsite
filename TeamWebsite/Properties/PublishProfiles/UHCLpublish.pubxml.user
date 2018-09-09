@@ -227,31 +227,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/23/2014 12:57:34</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
-      <publishTime>09/02/2018 11:43:34</publishTime>
+      <publishTime>09/06/2018 14:30:03</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css.map">
-      <publishTime>09/02/2018 11:43:34</publishTime>
+      <publishTime>09/06/2018 14:30:03</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css">
-      <publishTime>09/02/2018 11:43:34</publishTime>
+      <publishTime>09/06/2018 14:30:03</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css.map">
-      <publishTime>09/02/2018 11:43:34</publishTime>
+      <publishTime>09/06/2018 14:30:03</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>09/02/2018 19:27:46</publishTime>
+      <publishTime>09/06/2018 14:30:03</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
-      <publishTime>09/02/2018 11:43:34</publishTime>
+      <publishTime>09/06/2018 14:30:03</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>09/02/2018 11:43:34</publishTime>
+      <publishTime>09/06/2018 14:30:03</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css.map">
-      <publishTime>09/02/2018 11:43:34</publishTime>
+      <publishTime>09/06/2018 14:30:03</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>09/02/2018 11:42:18</publishTime>
+      <publishTime>09/06/2018 14:30:03</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>09/02/2018 11:42:18</publishTime>
@@ -314,40 +314,40 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/02/2018 11:43:49</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/05/2018 13:51:43</publishTime>
+      <publishTime>09/06/2018 15:41:52</publishTime>
     </File>
     <File Include="Views/Home/Meetings.cshtml">
-      <publishTime>09/03/2018 14:02:10</publishTime>
+      <publishTime>09/06/2018 14:30:06</publishTime>
     </File>
     <File Include="Views/Home/Mentors.cshtml">
-      <publishTime>09/05/2018 14:03:00</publishTime>
+      <publishTime>09/06/2018 14:30:06</publishTime>
     </File>
     <File Include="Views/Home/Milestones.cshtml">
-      <publishTime>09/05/2018 13:56:39</publishTime>
+      <publishTime>09/06/2018 15:44:21</publishTime>
     </File>
     <File Include="Views/Home/Team.cshtml">
-      <publishTime>09/03/2018 20:20:48</publishTime>
+      <publishTime>09/06/2018 14:30:06</publishTime>
     </File>
     <File Include="Views/Home/Videos.cshtml">
-      <publishTime>09/03/2018 10:27:07</publishTime>
+      <publishTime>09/06/2018 14:30:06</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>09/02/2018 11:42:18</publishTime>
+      <publishTime>09/06/2018 14:30:06</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/05/2018 14:47:22</publishTime>
+      <publishTime>09/06/2018 15:40:04</publishTime>
     </File>
     <File Include="Views/Shared/_PageSection.cshtml">
-      <publishTime>09/02/2018 21:04:30</publishTime>
+      <publishTime>09/06/2018 14:30:06</publishTime>
     </File>
     <File Include="Views/Shared/_TeamName.cshtml">
-      <publishTime>09/02/2018 14:13:03</publishTime>
+      <publishTime>09/06/2018 14:30:06</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>09/02/2018 11:42:18</publishTime>
+      <publishTime>09/06/2018 14:30:06</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>09/02/2018 11:42:18</publishTime>
+      <publishTime>09/06/2018 14:30:06</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>09/03/2018 17:12:26</publishTime>
