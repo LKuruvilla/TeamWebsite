@@ -1,42 +1,29 @@
 ﻿
 @{
-    ViewBag.Title = "Milesstones";
+    ViewBag.Title = "Milestones";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2 style="text-align:center">Project Milesstones - Fall 2018</h2>
+<h2 style="text-align:center">Project Milestones - Fall 2018</h2>
 
 <style>
-    table, td, th{
-        border:2px solid black;
-        text-align:center;
-    }
-    .duedate{
-        width:20%
-    }
-    .activity{
-        width:50%
-    }
-    .status{
-        width:30%
-    }
 
 
 </style>
 
-<div style="">
-    <table style="width:100%;  border-collapse:collapse; ">
-        <thead ">
-        <tr >
-            <th class="duedate"> Due Date</th>
-            <th class="activity"> Activity </th>
-            <th class="status"> Status</th>
+<div id="miles_main_div" style="">
+    <table id="miles_table" style="text-align:center;  ">
+        <thead >
+        <tr style="text-align:center !important; ">
+            <th id="miles_duedate" style="" > Due Date</th>
+            <th id="miles_activity"  style=""> Activity </th>
+            <th id="miles_status"  style=""> Status</th>
         </tr>
         <tbody>
             <tr>
-                <td class="duedate"> 1</td>
-                <td class="activity"> 2 </td>
-                <td class="status"> 3</td>
+                <td id="miles_duedate">September 13</td>
+                <td id="miles_activity"> Website Creation </td>
+                <td id="miles_status"> In progress</td>
             </tr>
 
     </table>
